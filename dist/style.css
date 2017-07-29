@@ -1,0 +1,38 @@
+body {
+    background-color: #6d1111 !important;
+}
+
+.text {
+    color: #6d1111;
+}
+
+#container {
+    width: 800px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#quote {
+    font-size: 50px;
+}
+
+#author {
+    font-size: 30px;
+    text-align: right;
+}
+
+#social {
+    display: inline;
+}
+
+#new-quote {
+    float: right;
+}
+
+#buttons {
+    margin-top: 40px;
+}
