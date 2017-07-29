@@ -12,7 +12,7 @@ $(document).ready(function() {
                 authorStr = json.contents.quotes[0].author;
                 $("#quote").text(quoteStr);
                 $("#author").text("- " + authorStr);
-                $("#btn-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + encodeURI('"' + quoteStr + '"'));
+                $("#btn-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + encodeURI('"' + quoteStr + '"' + ' -' + authorStr));
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 alert(jqXHR + " | textStatus: " + textStatus + " | errorThrown: " + errorThrown);
